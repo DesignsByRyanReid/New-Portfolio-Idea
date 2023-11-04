@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0f979fb495.js" crossorigin="anonymous"></script>
+    <title>Designs by Ryan Reid</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding" style="font-size: 2rem;"><img class="brand" src="brand.png"></a>
+            <ul class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#project" class="nav-link">Pages</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav> 
+    </header>
+    <a name="home"></a>
+    <div id="home" class="home-page">
+        <div class="hero-container">
+            <div class="hero-statement">
+                <h1 class="hero-title">Hi, I'm Ryan Reid</h1>
+                <div class="subtitle">
+                    <p class="sub hero-subtitle01">Designer, Developer,</p>
+                    <p class="sub hero-subtitle03">Coder</p>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img class="himg" src="main-pic.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <a name="project"></a>
+    <div id="project" class="project-page">
+        <div class="card-container shades-container">
+            <div class="card-accent shades-accent">
+                <div class="card-accent02 shades-accent02">
+                    <div class="card shade-card">
+                        <img src="50shades.jpeg" alt="">
+                    </div>
+                </div>    
+            </div>
+            <div class="card-desc shade-desc">
+                <div class="title shade-title">50 Shades Of Green</div>
+                <p class="sub-title shade-sub-title">Food truck, mobile catering, meal prep based in <span class="shades">Las Vegas</span></p>
+                <div class="desc-accent shade-desc-accent">
+                    <div class="desc-accent-top shade-desc-accent-top">
+                        <div class="desc-accent-bottom shade-desc-accent-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container emoji-container">
+            <div class="card-desc emoji-desc">
+                <div class="title emoji-title">Overly used emoji</div>
+                <p class="sub-title emoji-sub-title">CCS art I created to show what happens when certian emoji's are used <span class="emoji">WAY</span> too much.</p>
+                <div class="desc-accent emoji-desc-accent">
+                    <div class="desc-accent-top emoji-desc-accent-top">
+                        <div class="desc-accent-bottom emoji-desc-accent-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-accent emoji-accent">
+                <div class="card-accent02 emoji-accent02">
+                    <div class="card emoji-card">
+                        <img src="Overly used emoji.png" alt="">
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="card-container task-container">
+            <div class="card-accent task-accent">
+                <div class="card-accent02 task-accent02">
+                    <div class="card task-card">
+                        <img src="newtask.png" alt="">
+                    </div>
+                </div>    
+            </div>
+            <div class="card-desc task-desc">
+                <div class="title task-title">Task List Creator</div>
+                <p class="sub-title task-sub-title">Quick and simple task list creator that uses <span class="task">JavaScript</span> at its finest. </p>
+                <div class="desc-accent task-desc-accent">
+                    <div class="desc-accent-top task-desc-accent-top">
+                        <div class="desc-accent-bottom task-desc-accent-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="about"></a>
+    <div id="about" class="flex-container1">
+        <div class="about-page">
+            <h2 class="about-title">About Me</h2>
+            <div class="spaces"></div>
+            <hr>
+            <div class="spaces"></div>
+            <p>Two Words: Coffee & Coding
+            </p>
+            <p>Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions.Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</p>
+            <br class="middle">
+            <div class="icon-section">
+                <i class="fa-brands fa-html5" style=scale:2;></i>
+                <i class="fa-brands fa-css3-alt" style=scale:2;></i>
+                <i class="fa-brands fa-js" style=scale:2;></i>
+                <i class="fa-brands fa-bootstrap" style=scale:2;></i>
+                <i class="fa-brands fa-python" style=scale:2;></i>
+            </div>
+            </p>
+            <div class="spaces"></div>
+            <button class="resume-btn" 
+                            type="button" 
+                            onclick="location.href='https://designsbyryanreid.github.io/Resume/'">Resume</button>
+        </div>
+    </div>
+    <a name="contact"></a>
+    <div id="contact" class="contact-container">
+        <form action="https://formsubmit.co/ryan.reid1111@gmail.com" method="POST">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <textarea id="message" name="textarea" rows="4" placeholder="How can I help you?"></textarea>
+            <button name="send" type="submit">Send</button>
+        </form>
+        
+    </div>
+    <button id="btnScrollTop">go to top</button>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
